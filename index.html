@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <!-- global container -->
+  <div class="flex bg-cyan-50 flex-col items-center mx-auto  justify-center min-h-screen">
+    <!-- card container -->
+    <div class=" mx-10 my-5 shadow-2xl bg-white rounded-3xl p-8 md:p-24 md:mx-5 ">
+      <!-- menu container -->
+      <div
+        class="flex flex-col justify-center mx-auto md:flex-row  space-y-3 md:space-x-5 md:space-y-0 items-center  p-3 m-3 md:mb-20 md:justify-end md:text-xl ">
+        <!-- menu items -->
+
+        <div class="group">
+          <a href="#">vector</a>
+          <div class="mx-3 mt-3 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"></div>
+        </div>
+        <div class="group">
+          <a href="#">Illustrations</a>
+          <div class="mx-3 mt-3 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"></div>
+        </div>
+        <div class="group">
+          <a href="#">Images</a>
+          <div class="mx-3 mt-3 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"></div>
+        </div>
+        <div class="group">
+          <a href="#">Icons</a>
+          <div class="mx-3 mt-3 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100"></div>
+        </div>
+
+
+
+
+      </div>
+
+      <!-- search and upload container -->
+      <div class=" my-5 md:my-10 md:px-3 flex flex-col justify-between md:flex-row space-y-4">
+        <!-- search session -->
+        <div class="flex flex-row items-center justify-between border-b ">
+          <input class="placeholder:font-thin appearance-none py-2 lg:w-96 px-1 md: focus:outline-none " id="username"
+            type="text" placeholder="Search">
+          <button>
+            <svg xmlns="http://www.w3.org/2000/svg" class=" w-8 text-gray-300 duration-200 hover:scale-110"
+              viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <circle cx="10" cy="10" r="7"></circle>
+              <line x1="21" y1="21" x2="15" y2="15"></line>
+            </svg>
+          </button>
+
+        </div>
+        <!-- upload button session -->
+
+        <button
+          class="bg-black p-3 py-3 text-white border duration-200 shadow-2xl rounded-lg md:w-40 hover:bg-white hover:text-black hover:border-black">Upload</button>
+      </div>
+
+      <!-- Gallery container -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4">
+        <!-- image container 1 -->
+        <div class="relative group">
+          <img src="./images/image1.png" alt="" class="w-72">
+          <div
+            class="absolute bottom-0 left-0 right-0 right-0 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40 duration-500 text-white">
+
+            <div class="flex items-center justify-between font-normal px-5 py-1 w-full">
+              <div class="text-sm">
+                <p class="text-sm">Abstract Painting</p>
+                <p class="text-xs"> 329 likes - 25 shares</p>
+              </div>
+              <div>
+                <img src="./images/bookmark.png" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+           <!-- image container 2 -->
+        <div class="relative group">
+          <img src="./images/image2.png" alt="" class="w-72">
+          <div
+            class="absolute bottom-0 left-0 right-0 right-0 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40 duration-500 text-white">
+
+            <div class="flex items-center justify-between font-normal px-5 py-1 w-full">
+              <div class="text-sm">
+                <p class="text-sm">Abstract Painting</p>
+                <p class="text-xs"> 329 likes - 25 shares</p>
+              </div>
+              <div>
+                <img src="./images/bookmark.png" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+           <!-- image container 3 -->
+        <div class="relative group">
+          <img src="./images/image3.png" alt="" class="w-72 h-auto">
+          <div
+            class="absolute bottom-0 left-0 right-0 right-0 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40 duration-500 text-white">
+
+            <div class="flex items-center justify-between font-normal px-5 py-1 w-full">
+              <div class="text-sm">
+                <p class="text-sm">Abstract Painting</p>
+                <p class="text-xs"> 329 likes - 25 shares</p>
+              </div>
+              <div>
+                <img src="./images/bookmark.png" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+           <!-- image container 4 -->
+        <div class="relative group">
+          <img src="./images/image4.png" alt="" class="w-72">
+          <div
+            class="absolute bottom-0 left-0 right-0 right-0 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40 duration-500 text-white">
+
+            <div class="flex items-center justify-between font-normal px-5 py-1 w-full">
+              <div class="text-sm">
+                <p class="text-sm">Abstract Painting</p>
+                <p class="text-xs"> 329 likes - 25 shares</p>
+              </div>
+              <div>
+                <img src="./images/bookmark.png" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+           <!-- image container 5 -->
+        <div class="relative group">
+          <img src="./images/image5.png" alt="" class="w-72">
+          <div
+            class="absolute bottom-0 left-0 right-0 right-0 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40 duration-500 text-white">
+
+            <div class="flex items-center justify-between font-normal px-5 py-1 w-full">
+              <div class="text-sm">
+                <p class="text-sm">Abstract Painting</p>
+                <p class="text-xs"> 329 likes - 25 shares</p>
+              </div>
+              <div>
+                <img src="./images/bookmark.png" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+           <!-- image container 6 -->
+        <div class="relative group">
+          <img src="./images/image6.png" alt="" class="w-72">
+          <div
+            class="absolute bottom-0 left-0 right-0 right-0 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40 duration-500 text-white">
+
+            <div class="flex items-center justify-between font-normal px-5 py-1 w-full">
+              <div class="text-sm">
+                <p class="text-sm">Abstract Painting</p>
+                <p class="text-xs"> 329 likes - 25 shares</p>
+              </div>
+              <div>
+                <img src="./images/bookmark.png" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+           <!-- image container 7 -->
+        <div class="relative group">
+          <img src="./images/image7.png" alt="" class="w-72">
+          <div
+            class="absolute bottom-0 left-0 right-0 right-0 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40 duration-500 text-white">
+
+            <div class="flex items-center justify-between font-normal px-5 py-1 w-full">
+              <div class="text-sm">
+                <p class="text-sm">Abstract Painting</p>
+                <p class="text-xs"> 329 likes - 25 shares</p>
+              </div>
+              <div>
+                <img src="./images/bookmark.png" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+           <!-- image container 8 -->
+        <div class="relative group">
+          <img src="./images/image8.png" alt="" class="w-72">
+          <div
+            class="absolute bottom-0 left-0 right-0 right-0 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40 duration-500 text-white">
+
+            <div class="flex items-center justify-between font-normal px-5 py-1 w-full">
+              <div class="text-sm">
+                <p class="text-sm">Abstract Painting</p>
+                <p class="text-xs"> 329 likes - 25 shares</p>
+              </div>
+              <div>
+                <img src="./images/bookmark.png" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+           <!-- image container 9 -->
+        <div class="relative group">
+          <img src="./images/image9.png" alt="" class="w-72">
+          <div
+            class="absolute bottom-0 left-0 right-0 right-0 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40 duration-500 text-white">
+
+            <div class="flex items-center justify-between font-normal px-5 py-1 w-full">
+              <div class="text-sm">
+                <p class="text-sm">Abstract Painting</p>
+                <p class="text-xs"> 329 likes - 25 shares</p>
+              </div>
+              <div>
+                <img src="./images/bookmark.png" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+           <!-- image container 10 -->
+        <div class="relative group">
+          <img src="./images/image10.png" alt="" class="w-72">
+          <div
+            class="absolute bottom-0 left-0 right-0 right-0 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40 duration-500 text-white">
+
+            <div class="flex items-center justify-between font-normal px-5 py-1 w-full">
+              <div class="text-sm">
+                <p class="text-sm">Abstract Painting</p>
+                <p class="text-xs"> 329 likes - 25 shares</p>
+              </div>
+              <div>
+                <img src="./images/bookmark.png" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+           <!-- image container 11 -->
+        <div class="relative group">
+          <img src="./images/image11.png" alt="" class="w-72">
+          <div
+            class="absolute bottom-0 left-0 right-0 right-0 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40 duration-500 text-white">
+
+            <div class="flex items-center justify-between font-normal px-5 py-1 w-full">
+              <div class="text-sm">
+                <p class="text-sm">Abstract Painting</p>
+                <p class="text-xs"> 329 likes - 25 shares</p>
+              </div>
+              <div>
+                <img src="./images/bookmark.png" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+           <!-- image container 12 -->
+        <div class="relative group">
+          <img src="./images/image12.png" alt="" class="w-72">
+          <div
+            class="absolute bottom-0 left-0 right-0 right-0 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40 duration-500 text-white">
+
+            <div class="flex items-center justify-between font-normal px-5 py-1 w-full">
+              <div class="text-sm">
+                <p class="text-sm">Abstract Painting</p>
+                <p class="text-xs"> 329 likes - 25 shares</p>
+              </div>
+              <div>
+                <img src="./images/bookmark.png" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div>
+
+      </div>
+
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
